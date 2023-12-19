@@ -1,4 +1,9 @@
-
+/* Date: 12/19/23
+ * Author: Eden Demke
+ * 
+ * This assignment is a review of methods. It is used to create
+ * a table that converts feet to meters and meters to feet.
+ */
 public class Exercise_6_9 {
 
 	public static void main(String[] args) {
