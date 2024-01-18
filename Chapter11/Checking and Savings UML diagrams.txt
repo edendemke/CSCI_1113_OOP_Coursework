@@ -1,0 +1,25 @@
+    Checking Account
+-------------------------
+-overdraftLimit: int
+-withdrawalAmount: double
+-------------------------
++CheckingAccount()
++CheckingAccount(overdraftLimit: int)
++getOverdraftLimit(): int
++setOverdraftLimit(overdraftLimit: int): void
++getWithdrawalAmount(): double
++setWithdrawalAmount(withdrawalAmount: double): void
++overdraft(withdrawalAmount: double): void
++toString(): String
+
+
+
+     Savings Account
+-------------------------
+-withdrawalAmount: double
+-------------------------
++SavingsAccount()
++canWithdraw(withrawalAmount: double): boolean
++getWithdrawalAmount(): double
++setWithdrawalAmount(withdrawalAmount: double): void
++toString(): String
